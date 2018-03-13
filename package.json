@@ -1,0 +1,29 @@
+{
+  "name": "ngstarter",
+  "version": "1.0.0",
+  "description": "angular starter with webpack",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tbd"
+  },
+  "author": "Mauricio Torrejon",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-loader": "^0.5.5",
+    "node-sass": "^4.7.2",
+    "rxjs": "^5.5.6",
+    "sass-loader": "^6.0.7"
+  }
+}

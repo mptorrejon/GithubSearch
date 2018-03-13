@@ -1,0 +1,31 @@
+.login-name{
+	color:green;
+}
+
+.body-container{
+	padding-top:40px;
+	width:70%;
+	margin: 0px auto;
+	.left-panel{
+		text-align: center;
+	}
+	.right-panel{
+		ul{
+			li{
+				a{
+					cursor: pointer;
+				}
+				a:hover{
+					color: green;
+				}
+			}
+		}
+
+	}
+}
+
+.body-container>*{
+	width:49%;
+	display:inline-block;
+	vertical-align: top;
+}
